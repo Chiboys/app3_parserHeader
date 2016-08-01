@@ -9,5 +9,5 @@ module.exports = function(req,res){
 		"operating System":sys;
 	};
 	//console.log();
-	res.send(header);
+	res.JSON(json);
 }
