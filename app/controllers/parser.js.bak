@@ -1,6 +1,13 @@
 "use strict";
 module.exports = function(req,res){
-//	var header = req.headers;
+	var header = req.headers;
+	var language = header.accept-language.repalce(/(^[a-z]+-[a-z]+)/gi,"$1");
+	var sys = header.user-agent.exec(/^\s\(.*\)/)
+	var json = {
+		"ip"£ºheader.x-forwarded-for;
+		"language":language;
+		"operating System":
+	};
 	//console.log();
-	res.send(res);
+	res.send(header);
 }
