@@ -1,0 +1,22 @@
+{
+  "name": "app3-parserheader",
+  "version": "1.0.0",
+  "description": "parser the request header to get the Ip address ,language and operating system.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangLiuLiuWang/app3_parserHeader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WangLiuLiuWang/app3_parserHeader/issues"
+  },
+  "homepage": "https://github.com/WangLiuLiuWang/app3_parserHeader#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
